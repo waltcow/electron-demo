@@ -1,0 +1,14 @@
+# 详细打包配置可参考： https://github.com/electron-userland/electron-builder/wiki/Options
+appId: com.waltcow.electronDemo
+copyright: Copyright © 2016 waltcow",
+productName: MyApp
+category: public.app-category.tools
+
+directories:
+  buildResources: resources # directory containing your build-specific assets (e.g., beta icons - icon.icns, icon.ico , background.png)
+  app: app # application directory (containing the application package.json, defaults to app, www), or working directory
+  output: release
+
+asar: true
+win:
+  target: nsis

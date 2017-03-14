@@ -1,0 +1,11 @@
+{
+  "name": "electronDemo",
+  "version": "0.0.1",
+  "productName": "electronDemo",
+  "description": "electron demo",
+  "main": "dist/electron.js",
+  "author": {
+    "name": "waltcow",
+    "email": "waltcow@gmail.com"
+  }
+}
